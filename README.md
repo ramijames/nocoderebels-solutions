@@ -41,11 +41,17 @@ Open the css-content-position.html in a browser to view the completed solution. 
 
 ## Cheap Letter Deletion
 
-We want to end up with a string with no duplicates. Our objective is to count the cost of deletion.
+On the first two or three readings of the requirements, I didn't understand exactly what was being asked of me for this test.
 
-You'll be inputing a string and an array. The string is a series of letters, and the array represents the cost of deleting that letter from the array.
+From my understanding:
 
-Example usage of the provided solution:
+- We want to end up with a string with no duplicates.
+- Our objective is to count the cost of deletion.
+- You'll be inputing a string and an array. 
+- The string is a series of letters, and the array represents the cost of deleting the letter at that position from the array.
+- You must choose the lowest cost letter.
+
+Example usage of the implemented solution:
 
 ```sh
 node cheap-letter-deletion.js "aabbcc" "1, 2, 1, 2, 1, 2"
@@ -53,5 +59,19 @@ node cheap-letter-deletion.js "aabbcc" "1, 2, 1, 2, 1, 2"
 Output:
 
 ```sh
-
+Total Cost: 3
 ```
+
+## Fibonnaci
+
+I've never had a need to actually implement a Fibonnaci sequence, so I didn't really understand why this was tagged as hard. I get it now.
+
+It isn't about how to get it done, it is about how to get it done efficiently. A naive implementation is very compute intensive, and for digits that are far down the number line it can be a very long wait.
+
+I did some research and came to understand that it is common to use these methods to solve this:
+
+- recursion
+- memoization
+- matrix multiplication
+
+I leaned on [this article by devlucky](https://medium.com/developers-writing/fibonacci-sequence-algorithm-in-javascript-b253dc7e320e) for the solution. I absolutely never would have gotten there on my own.
