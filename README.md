@@ -86,3 +86,4 @@ Output:
 ```sh
 377
 ```
+My forté is not in computation or algorithms. It's in front-end development. In the real world I would have simply [used this NPM package](https://github.com/CraigH2013/fibonacci-fast).
