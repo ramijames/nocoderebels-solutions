@@ -75,3 +75,14 @@ I did some research and came to understand that it is common to use these method
 - matrix multiplication
 
 I leaned on [this article by devlucky](https://medium.com/developers-writing/fibonacci-sequence-algorithm-in-javascript-b253dc7e320e) for the solution. I absolutely never would have gotten there on my own.
+
+To run the solution:
+
+```sh
+node fib-digits.js 13
+```
+Output:
+
+```sh
+377
+```
